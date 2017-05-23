@@ -12,3 +12,4 @@ for line in lines:
     data = json.loads(json_data)
     emails = [item['email'] for item in data[0]['emails']]
     print emails
+    time.sleep(1)
