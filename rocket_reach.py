@@ -3,7 +3,7 @@
 # Also you need to fill in your API key in the script.
 
 import requests, json, time
-url = "https://api.rocketreach.co/v1/api/lookupProfile?api_key=77377k10d4cccb39188a803dc4ab19f4fc1c5a&li_url="
+url = "https://api.rocketreach.co/v1/api/lookupProfile?api_key=[API_KEY]&li_url="
 lines = [line.rstrip('\n') for line in open('linkedinlinks.txt')]
 fileToWrite = open('emails.txt', 'w')
 for line in lines:
